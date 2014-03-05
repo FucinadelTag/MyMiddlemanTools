@@ -1,9 +1,10 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+$:.unshift File.expand_path('../lib', __FILE__)
+require 'gem_release/version'
 
 Gem::Specification.new do |s|
   s.name        = 'fdt_middleman_tools'
-  s.version     = '0.0.2'
+  s.version     = GemRelease::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Lorenzo Caldara"]
   s.email       = ["lorenzo@fucinadeltag.it"]
