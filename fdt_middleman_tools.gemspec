@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["lorenzo@fucinadeltag.it"]
   s.homepage    = "https://github.com/FucinadelTag/MyMiddlemanTools"
   s.summary     = "Some personal tools for my work using Middleman"
-  s.description = "Some personal tools for my work using Middleman"
+  s.description = "Some personal tools helping me with Middleman"
   s.license     = "MIT"
 
   s.files         = `git ls-files`.split("\n")
